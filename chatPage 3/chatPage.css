@@ -1,0 +1,18 @@
+/* chat page css */
+body{
+    background-color:deepskyblue;
+   
+        font-family: "Lucida Console", monospace;
+        color:white;
+       
+      
+      
+}
+#logo{
+    border-radius: 10%;
+    height: 100px;
+}
+#output{
+    background-color:rgb(255, 194, 41);
+    border-radius: 10%;
+}
