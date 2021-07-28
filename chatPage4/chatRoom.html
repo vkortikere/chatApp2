@@ -1,0 +1,42 @@
+<head>
+    <title>Let's Chat</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="chatRoom.css">
+</head>
+<body>
+
+<button id="logout" class="glyphicon glyphicon-log-out btn btn-warning" onclick="logout()">Logout</button>
+<center>
+    <h1 class="header">	
+        Let's Chat!
+        <sup>
+            <img id="logo" src="https://i.pinimg.com/originals/e3/1b/75/e31b752875679b64fce009922f9f0dda.gif">
+        </sup>
+        <br><br>
+        <h1>Welcome,<span id="userTag"></span></h1> 
+    </h1>
+    <div class="container">
+    <h3 id="user_name" class="color_white"></h3>
+    <div class="form-group input_div_room_page">
+        <label>Create A Room:</label>
+         <input type="text" id="room_name" class="form-control" placeholder="Enter your room's name!">
+         
+    </div>
+
+    <button class="btn btn-success" onclick="addRoom()">Create A Room</button>
+    <h3 class="color_white">Busy Rooms!</h3>
+ <div id="output">
+     
+ </div>
+</div>
+</center>
+</div>
+<script src="chatRoom.js"></script>
+</body>
+</body>
